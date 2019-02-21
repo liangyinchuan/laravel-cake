@@ -1,0 +1,194 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+.z{
+	width:100%;
+	height:55px;
+}
+.carnum{
+	width:18px;
+	height:18px;
+	border-radius: 50%;
+	background-color: #6A050F;
+	z-index: 111;
+	position: fixed;
+	top:1%;
+	right:14.6%;
+	color:white;
+	text-align: center;
+	z-index:99999999;
+}
+.navbar-inverse{
+	background: url(../images/bg.png);
+	border: none;
+	padding: 0;
+	margin-bottom: 10px;
+	background-size: 1950px;
+	z-index:22222;
+
+}
+.navbar{
+	border: none;
+	padding: 0;
+	margin: 0;
+	border-radius: 0;
+	position: fixed;
+	top:0px;
+	width:100%;
+}
+.navbar-inverse .navbar-nav > li > a{
+	color: white;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+	color: white;
+	background: #50050D;
+}
+.open{
+	background: #50050D;
+}
+
+.list{
+	/*border:1px solid red;*/
+	width:82%;
+	/*clear:both;*/
+	margin-top: 20px;
+	float:right;
+}
+.listinfo{
+	border-bottom:1px solid #50050D;
+	width:100%;
+	height:150px;
+	float:right;
+	margin-bottom: 20px;
+}
+.left{
+	padding:10px;
+	padding-left:0px;
+	float:left;
+}
+.between{
+	float:left;
+	padding: 5px;
+}
+.between>div{
+	margin:5px ;
+	margin-top: 7px
+}
+.one{
+	font-size: 20px;
+	color:#1C030D;
+}
+.three,.two{
+	color:#888888;
+}
+.four{
+	color:#1C030D;
+}
+.right{
+	float:right;
+	/*border: 1px solid red;*/
+	width:150px;
+	height:150px;
+	position: relative;
+}
+.jia,.jian{
+	text-align: center;
+	width:40px;
+	height: 40px;
+	line-height: 40px;
+	/*padding: 5px;*/
+	border: 2px solid #1C030D;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.aa{
+	float:left;
+	font-size: 35px;
+	margin-left:10px;
+	margin-top:63px;
+	cursor: pointer;
+}
+.sg{
+	overflow: hidden;
+	border: 2px solid #1C030D;
+	width:40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-left: 86px;
+	text-align:right;
+	margin-top:23px;
+	position: absolute;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	display: none;
+	
+
+}
+.aaa{
+	float:left;
+	width:145px;
+	height:40px;
+	/*border: 2px solid #1C030D;*/
+	background:url('../images/car.png') 10px no-repeat;
+	cursor: pointer;
+	
+}
+.aaa>span{
+	float:right;
+	font-size: 15px;
+	color:#888888;
+	margin:10px;
+	margin-right: 20px;
+}
+.footer{
+	width:100%;
+	border: 2px solid #1C030D;
+	clear:both;
+	text-align: center;
+}
+.leftlist{
+	width:240px;
+	height:600px;
+	border-right:1px solid black;
+	position: absolute;
+}
+.leftlist>div>div{
+	float:right;
+	font-size: 14px;
+	margin:20px 50px;
+}
+a{
+	color:#390C20;
+	text-decoration: none;
+}
+a:hover{
+	color:#390C20;
+	text-decoration: none;
+}
+.leftlist>div{
+	margin-top:30px;
+}
+.rightbox{
+	float:right;
+	width:82%;
+	/*border:1px solid red;*/
+}
+#border{
+	border: 1px solid red;
+}
+.container{margin-top: 5px;}
+.product-category{margin-left:-10px;width:160px;margin-top:10px;float:left;}
+.product-category .tab{margin-left:-10px;background-color:#390c20;color:white;border-radius:8px;width:160px;display:inline-block;margin-top:0px;margin-bottom:6px;padding:3px;padding-left:10px;text-decoration:none}
+.product-category .tab.selected{width:100%;color:white;font-weight:bolder;background-image:url(../Images/christmas-list-e10e7ede6c7aa679b32d82195b95aa08.png)}
+.product-category .secondary-tab{width:100%;margin-left:1px;color:#a7a7a7;text-decoration:none;line-height:35px}
+.product-category .secondary-tab.selected{width:100%;color:#390c20}
+.pantry-brown-button{background-color:#390c20;font-size:14pt;height:35pt;padding-top:8pt;text-align:center;width:100%;color:white;letter-spacing:5px}
+.pantry-green-button{background-color:#9c1e2e;font-size:14pt;width:100%;height:35pt;padding-top:8pt;text-align:center;color:white;letter-spacing:5px}
+.pantry-brown-button:hover{color:white}
+.pantry-padding-0px{padding:0px}
+.carousel .item{height:235px;background-color:#777777}
+.product-category-product-set-item{margin-bottom:20px}.product-category-product-set-item .product-set-image-container{padding-right:40px;width:200px;float:none;vertical-align:top}.product-category-product-set-item .product-set-image-container img.product-set-image{border-radius:10px;width:200px;height:200px}.product-category-product-set-item .product-set-item-info-container{position:relative;height:100%;float:none;padding-left:0px;vertical-align:top;color:#aeaeae;border-bottom:1px solid #aeaeae}.product-category-product-set-item .product-set-item-info-container .product-set-item-info-inner-container{margin-top:30px}.product-category-product-set-item .product-set-item-info-container .product-set-item-info-inner-container .product-set-header{font-size:20px;color:#3e001f}.product-category-product-set-item .product-set-item-info-container .product-set-item-info-inner-container .product-medium-description{color:#888888}.product-category-product-set-item .product-set-item-info-container .product-set-item-info-inner-container .product-set-details-link a{font-weight:bold;color:#3e001f}.product-category-product-set-item .product-set-item-info-container .shopping-cart-icon-container{display:inline-block;width:130px;position:absolute;bottom:0px;right:0px;font-size:14px;color:#888888}.product-category-product-set-item .product-set-item-info-container .shopping-cart-icon-container .add-product-list{margin:0;height:45px;cursor:pointer}.product-category-product-set-item .product-set-item-info-container .shopping-cart-icon-container .medium_content{padding:0;text-align:center;font-size:200%}.product-category-product-set-item .product-set-item-info-container .shopping-cart-icon-container .left_icon{padding:0;text-align:right;font-size:200%}.product-category-product-set-item .product-set-item-info-container .shopping-cart-icon-container .right_icon{padding:0;text-align:left;font-size:200%}.product-category-product-set-item .product-set-item-info-container .shopping-cart-icon-container .right_font{padding-left:5px;padding-top:8px;padding-right:0;text-align:left}.product-category-product-set-item .product-set-item-info-container .shopping-cart-icon-container .product-set-pc{background:url(../Images/product-set01-65022e3d48604834c716f1fd64dc0e81.png) no-repeat;padding:0;text-align:center;text-indent:-9999px;background-size:auto 100%;width:100%}.product-category-product-set-item .product-set-item-info-container .shopping-cart-icon-container .product-set-minus{background:url(../Images/product-set03-00513e3868c07fa187e3ece86b6f82bf.png) no-repeat;padding:0;text-align:center;text-indent:-9999px;background-size:auto 100%;width:100%}.product-category-product-set-item .product-set-item-info-container .shopping-cart-icon-container .product-set-plus{background:url(../Images/product-set02-7911e6d209a9ced7052995ef7c9d99dc.png) no-repeat;padding:0;text-align:center;text-indent:-9999px;background-size:auto 100%;width:100%}.product-category-product-set-item .product-set-item-info-container .shopping-cart-icon-container .add-cart-button{padding:0;text-align:center;text-indent:-9999px;background-size:auto 100%;width:100%;background:url(../Images/shopping-cart20160225-0854bb8e012b239ae0537e49b3141f86.png) no-repeat}.product-category-product-set-item .product-set-item-info-container .shopping-cart-icon-container .add-cart-button:hover{background:url(../Images/shopping-cart20161122-9a48a06e299406c103293ed2aa174310.png) no-repeat}.shopping-cart-info-content{font-size:12pt;background-color:white;border-top:1px solid #cccccc;text-align:left;color:#390c20}.shopping-cart-info-content:hover{color:#390c20}.shopping-cart-info-content .fa-shopping-cart{font-size:16pt}.shopping-cart-info-content .shopping-cart-items-count{border-radius:15px;display:inline-block;height:30px;line-height:32px;color:white;width:30px;margin:0 5px;font-size:16pt}.shopping-cart-info-content .shopping-cart-products-total{color:#8b1725;font-size:16pt}.shopping-cart-info-content .goto-cart-button{background-color:#9c1e2e;color:white;text-align:center;height:100%;padding:7pt;font-size:16pt}
+.product-set-details-link a{font-weight:bold;color:#3e001f}.product-category-product-set-item .product-set-item-info-container .shopping-cart-icon-container{display:inline-block;width:130px;position:absolute;bottom:0px;right:0px;font-size:14px;color:#888888}.product-category-product-set-item .product-set-item-info-container .shopping-cart-icon-container .add-product-list{margin:0;height:45px;cursor:pointer}.product-category-product-set-item .product-set-item-info-container .shopping-cart-icon-container .medium_content{padding:0;text-align:center;font-size:200%}.product-category-product-set-item .product-set-item-info-container .shopping-cart-icon-container .left_icon{padding:0;text-align:right;font-size:200%}
+.product-category-product-set-item{margin-left: 240px}

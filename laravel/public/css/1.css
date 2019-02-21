@@ -1,0 +1,238 @@
+/*公共样式*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*开始*/
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/*头部*/
+
+.header {
+    height: 50px;
+    background: red;
+}
+
+.man {
+    margin-top: 20px;
+}
+
+.lft {
+    width: 19%;
+    height: 830px;
+    float: left;
+    border-right: 1px solid black;
+}
+
+.rght {
+    /*    width: 79%;*/
+    margin-left: 1%;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 30px;
+    float: left;
+}
+
+.had {
+    height: 30px;
+    background: #390c20;
+    font: 14px '微软雅黑';
+    color: white;
+}
+
+.had ul li {
+    width: 16%;
+    line-height: 30px;
+    float: left;
+}
+
+.souldpay {
+    height: 30px;
+    background: #f1f1f1;
+    margin-top: 30px;
+    font: 14px '微软雅黑';
+}
+
+.souldpay span {
+    display: block;
+    width: 20%;
+    line-height: 30px;
+    float: right;
+}
+
+.bck:hover {
+    color: blue;
+}
+
+.py {
+    margin-right: 100px;
+}
+
+
+/**/
+
+.tps {
+    margin-top: 10px;
+    font-family: '微软雅黑';
+}
+
+.tps a {
+    color: green;
+}
+
+
+/*主要部分*/
+
+.cntent {
+    margin-top: 20px;
+}
+
+.cntent>p {
+    font-family: '微软雅黑';
+    height: 30px;
+}
+
+.cntent span {
+    float: left;
+}
+
+.cntent>div {
+    height: 30px;
+    box-sizing: border-box;
+    padding-left: 5%;
+    margin-top: 10px;
+    font: 14px '微软雅黑';
+}
+
+.cntent>div>span {
+    display: block;
+    width: 25%;
+    line-height: 30px;
+    float: left;
+    letter-spacing: 7px;
+}
+
+.ip {
+    display: block;
+    width: 30%;
+    height: 30px;
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    float: left;
+}
+
+
+/*付款方式*/
+
+.wys>div {
+    width: 15%;
+    height: 30px;
+    border: 1px solid #ddd;
+    margin-left: 40px;
+    border-radius: 5px;
+    float: left;
+}
+
+
+/*礼品卡*/
+
+.gftcard {
+    display: block;
+    width: 15%;
+    height: 30px;
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    float: left;
+}
+
+.mney {
+    display: block;
+    width: 30%;
+    height: 30px;
+    border: none;
+    border: 1px solid #ddd;
+    margin-left: 40px;
+    border-radius: 5px;
+    float: left;
+}
+
+.nxt {
+    width: 13%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #390c20;
+    color: white;
+    margin-left: 25%;
+    border-radius: 5px;
+}
+
+
+/*底部信息*/
+
+.bttom {
+    margin-top: 30px;
+    box-sizing: border-box;
+    padding-left: 5%;
+    text-align: center;
+    font: 12px '微软雅黑';
+}
+
+.bttom ul li {
+    text-align: center;
+    font: 14px '微软雅黑';
+    border-right: 1px solid #333;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+}
+
+.pone {
+    font-weight: bold;
+    color: green;
+}
+
+.ku {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #ddd;
+    float: left;
+    margin: 25px 10px;
+}
+
+.eweima {
+    display: block;
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-left: 10px;
+}
+
+.foooter {
+    height: 100px;
+    background: url('../images/background.png');
+    background-repeat: no-repeat;
+}
